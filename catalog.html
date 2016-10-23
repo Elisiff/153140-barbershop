@@ -10,7 +10,7 @@
     <nav class="main-navigation">
       <ul>
         <li>
-          <a href="#">Главная</a>
+          <a href="#"><img src="img/logo.png" width="" height="" alt="Главная"></a>
         </li>
         <li>
           <a href="#">Информация</a>
@@ -37,7 +37,7 @@
   <!-- Основной блок -->
   <main class="container">
     <h1>Средства для ухода</h1>
-    <ul class="menu-1">
+    <ul class="breadcrumbs">
       <li>
         <a href="#">Главная</a>
       </li>
@@ -48,6 +48,7 @@
         <a href="#">Средства для ухода</a>
       </li>
     </ul>
+
     <div class="producers">
       <h2>Производители:</h2>
       <form class="producers-form" action="https://echo.htmlacademy.ru" method="post">
@@ -74,9 +75,9 @@
       <div class="price">
         2 900 руб.
       </div>
-      <button class="purchase" type="button">
+      <a class="purchase-btn" href="#">
         Купить
-      </button>
+      </a>
     </article>
     <article class="item-2">
       <img src="img/photo-2.jpg" width="" height="" alt="">
@@ -87,9 +88,9 @@
       <div class="price">
         750 руб.
       </div>
-      <button class="purchase" type="button">
+      <a class="purchase-btn" href="#">
         Купить
-      </button>
+      </a>
     </article>
     <article class="item-3">
       <img src="img/photo-3.jpg" width="" height="" alt="">
@@ -100,20 +101,21 @@
       <div class="price">
         290 руб.
       </div>
-      <button class="purchase" type="button">
+      <a class="purchase-btn" href="#">
         Купить
-      </button>
+      </a>
     </article>
     <div class="product-group">
       <h2>Группы товаров:</h2>
       <form class="product-group-form" action="https://echo.htmlacademy.ru" method="post">
-        <input type="radio" name="product-group" value="shavers" id="shavers-field" checked>
+        <input type="radio" name="product-group" value="shavers" id="shavers-field">
         <label for="shavers-field">Бритвенные принадлежности</label>
-        <input type="radio" name="product-group" value="care" id="care-field">
+        <input type="radio" name="product-group" value="care" id="care-field" checked>
         <label for="care-field">Средства для ухода</label>
         <input type="radio" name="product-group" value="accessories" id="accessories-field">
         <label for="accessories-field">Аксессуары</label>
       </form>
+      <a class="show-btn" href="#">Показать</a>
     </div>
     <article class="item-4">
       <img src="img/photo-4.jpg" width="" height="" alt="">
@@ -124,9 +126,9 @@
       <div class="price">
         500 руб.
       </div>
-      <button class="purchase" type="button">
+      <a class="purchase-btn" href="#">
         Купить
-      </button>
+      </a>
     </article>
     <article class="item-5">
       <img src="img/photo-5.jpg" width="" height="" alt="">
@@ -137,9 +139,9 @@
       <div class="price">
         300 руб.
       </div>
-      <button class="purchase" type="button">
+      <a class="purchase-btn" href="#">
         Купить
-      </button>
+      </a>
     </article>
     <article class="item-6">
       <img src="img/photo-6.jpg" width="" height="" alt="">
@@ -150,14 +152,17 @@
       <div class="price">
         3 900 руб.
       </div>
-      <button class="purchase" type="button">
+      <a class="purchase-btn" href="#">
         Купить
-      </button>
+      </a>
     </article>
-      <a class="number-btn number-btn-1" href="#">1</a>
-      <a class="number-btn number-btn-2" href="#">2</a>
-      <a class="number-btn number-btn-3" href="#">3</a>
-      <a class="number-btn number-btn-4" href="#">4</a>
+
+    <div class="number-btn">
+      <a class="number-btn-1" href="#">1</a>
+      <a class="number-btn-2" href="#">2</a>
+      <a class="number-btn-3" href="#">3</a>
+      <a class="number-btn-4" href="#">4</a>
+    </div>
   </main>
 
   <!-- Подвал -->
