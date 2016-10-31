@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   font-family: "PT Sans Narrow", "Arial Narrow", Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -6,12 +8,239 @@ body {
   font-weight: bold;
 }
 
-h1 {
+.title-1 {
   font-size: 30px;
   line-height: 42px;
 }
 
-h2 {
+.title-2 {
   font-size: 24px;
   line-height: 30px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
+
+.container:first-child {
+  justify-content: space-between;
+
+  /* Только для оформления сетки */
+  height: 70px;
+}
+
+.flex {
+  display: flex;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.main-navigation {
+  width: 780px;
+
+  /* Только для оформления сетки */
+  outline: black solid 1px;
+}
+
+.user-block {
+  width: 140px;
+
+  /* Только для оформления сетки */
+  outline: black solid 1px;
+}
+
+.index-logo {
+  width: 368px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+
+  /* Только для оформления сетки */
+  min-height: 175px;
+}
+
+.features-item {
+  width: 300px;
+
+  /* Только для оформления сетки */
+  outline: black solid 1px;
+}
+
+.index-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  padding: 50px 80px;
+
+  /* Только для оформления сетки */
+  outline: black solid 1px;
+}
+
+.index-content-left {
+  width: 380px;
+
+  /* Только для оформления сетки */
+  min-height: 330px;
+  outline: black solid 1px;
+}
+
+.index-content-right {
+  width: 300px;
+
+  /* Только для оформления сетки */
+  min-height: 330px;
+  outline: black solid 1px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+  outline: black solid 1px;
+}
+
+.footer-contacts {
+  width: 320px;
+  margin-right: 60px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+  outline: black solid 1px;
+}
+
+.footer-social {
+  width: 180px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+  outline: black solid 1px;
+}
+
+.footer-copyright {
+  width: 180px;
+  margin-left: auto;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+  outline: black solid 1px;
+}
+
+/* Каталог */
+.head {
+  margin-bottom: 54px;
+
+  /* Только для оформления сетки */
+  height: 57px;
+  outline: black solid 1px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.grouping {
+  width: 220px;
+
+  /* Только для оформления сетки */
+  outline: black solid 1px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 700px;
+
+  /* Только для оформления сетки */
+  outline: black solid 1px;
+}
+
+.item {
+  width: 220px;
+}
+
+.number-btn {
+  margin-left: 240px;
+}
+
+/* Прайс-лист */
+.man-classic {
+
+  /* Только для оформления сетки */
+  min-height: 48px;
+  outline: black solid 1px;
+}
+
+.brands {
+  width: 400px;
+}
+
+.price-list {
+  width: 460px;
+}
+
+.description {
+  display: flex;
+
+  /* Только для оформления сетки */
+  outline: black solid 1px;
+}
+
+.description-text {
+  width: 380px;
+}
+
+.description-text:last-child {
+  margin-left: 100px;
+  margin-right: 80px;
+}
+
+/* Набор для путешествий */
+.product-images {
+  width: 460px;
+
+  /* Только для оформления сетки */
+  outline: black solid 1px;
+}
+
+.text {
+  width: 390px;
+
+  /* Только для оформления сетки */
+  outline: black solid 1px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 140px;
+  margin-right: 20px;
+
+  /* Только для оформления сетки */
+  outline: black solid 1px;
+}
+
+.photo:last-child {
+  margin-right: 0;
 }

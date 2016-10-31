@@ -8,7 +8,7 @@
 <body>
   <!-- Шапка -->
   <header class="main-header">
-    <div class="container">
+    <div class="container flex">
       <nav class="main-navigation">
         <ul>
           <li>
@@ -57,63 +57,71 @@
   </header>
 
   <!-- Основной блок -->
-  <main class="main">
-    <h1>Прайс-лист</h1>
-    <ul class="breadcrumbs">
-      <li>
-        <a href="#">Главная</a>
-      </li>
-      <li>
-        <span>Прайс-лист</span>
-      </li>
-    </ul>
-    <div class="man-classic">
-      Истинно мужская классика
-    </div>
-    <section class="brands">
-      <h2>Мы используем только лучшие средства:</h2>
-      <ul>
-        <li>Baxter of California</li>
-        <li>Mr Natty</li>
-        <li>Suavecito</li>
-        <li>Malin+Goetz</li>
+  <main class="container">
+    <div class="head">
+      <h1 class="title-1">Прайс-лист</h1>
+      <ul class="breadcrumbs">
+        <li>
+          <a href="#">Главная</a>
+        </li>
+        <li>
+          <span>Прайс-лист</span>
+        </li>
       </ul>
-    </section>
-    <section class="price-list">
-      <h2>Цены на услуги наших мастеров:</h2>
-      <table>
-        <tr>
-          <td>Стрижка</td>
-          <td>1500 р.</td>
-        </tr>
-        <tr>
-          <td>Стрижка бороды</td>
-          <td>500 р.</td>
-        </tr>
-        <tr>
-          <td>Накрутка усов</td>
-          <td>350 р.</td>
-        </tr>
-      </table>
-    </section>
-    <section class="description">
-      <h2>Несколько слов о нас:</h2>
-      <p class="description-1">
-        Наша парикмахерская занимается исключительно мужскими срижками.
-        Стрижка каждого клиента для нас - это уникальная и продуманная
-        до мелочей работа. Мы не работаетна количество, мы делаем качество.
-      </p>
-      <p class="description-2">
-        Наша мастерская расположена в центре города, поэтому сделать стильную
-        стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете
-        погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
-      </p>
-    </section>
+    </div>
+
+    <div class="man-classic">
+      <span class="man-classic-title">Истинно мужская классика</span>
+    </div>
+
+    <div class="content">
+      <section class="brands">
+        <h2 class="title-2">Мы используем только лучшие средства:</h2>
+        <ul>
+          <li>Baxter of California</li>
+          <li>Mr Natty</li>
+          <li>Suavecito</li>
+          <li>Malin+Goetz</li>
+        </ul>
+      </section>
+      <section class="price-list">
+        <h2 class="title-2">Цены на услуги наших мастеров:</h2>
+        <table>
+          <tr>
+            <td>Стрижка</td>
+            <td>1500 р.</td>
+          </tr>
+          <tr>
+            <td>Стрижка бороды</td>
+            <td>500 р.</td>
+          </tr>
+          <tr>
+            <td>Накрутка усов</td>
+            <td>350 р.</td>
+          </tr>
+        </table>
+      </section>
+      <section class="few-words">
+        <h2 class="title-2">Несколько слов о нас:</h2>
+        <div class="description">
+          <p class="description-text">
+            Наша парикмахерская занимается исключительно мужскими срижками.
+            Стрижка каждого клиента для нас - это уникальная и продуманная
+            до мелочей работа. Мы не работаетна количество, мы делаем качество.
+          </p>
+          <p class="description-text">
+            Наша мастерская расположена в центре города, поэтому сделать стильную
+            стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете
+            погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
+          </p>
+        </div>
+      </section>
+    </div>
   </main>
 
   <!-- Подвал -->
   <footer class="main-footer">
-    <div class="container">
+    <div class="container flex">
       <section class="contacts">
         Барбершоп «Бородинский»<br>
         Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
