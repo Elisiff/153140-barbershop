@@ -8,6 +8,10 @@ body {
   font-weight: bold;
 }
 
+img {
+  display: block;
+}
+
 .title-1 {
   font-size: 30px;
   line-height: 42px;
@@ -77,6 +81,11 @@ body {
 
   /* Только для оформления сетки */
   outline: black solid 1px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .index-content {
